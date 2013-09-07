@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Crumblr</title>
+	  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
+	  <%= csrf_meta_tags %>
+	</head>
+
+  <body>
+    <%= link_to "Welcome", "/" %>
+    <%= link_to "About", "/about" %>
+    <%= yield %>
+  </body>
+</html>
