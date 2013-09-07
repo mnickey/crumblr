@@ -5,7 +5,11 @@
 </p>
 
 <p>
-  <%= simple_format post.content %>
+	<% if post.kind == 'image' %>
+		<%= image_tag post.content, style: "width: 100%" %>
+	<% else %>
+		<%= simple_format post.content %>
+	<% end %>
 </p>
 
 <p class="text-muted">

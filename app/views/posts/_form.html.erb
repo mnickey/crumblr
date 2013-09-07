@@ -15,10 +15,18 @@
     <%= f.label :title %><br>
     <%= f.text_field :title, class: "form-control" %>
   </div>
+
+  <div class="form-group">
+    <%= f.label :kind %><br>
+    
+    <%= f.select :kind, ["text", "image"], {}, class: "form-control" %>
+  </div>
+
   <div class="form-group">
     <%= f.label :content %><br>
     <%= f.text_area :content, class: "form-control"  %>
   </div>
+  
   <div class="form-group">
     <%= f.submit class: 'btn btn-primary'%>
   </div>
