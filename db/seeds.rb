@@ -16,23 +16,23 @@ post1.save
 	post1.hearts.create
 end
 
-# Ovenly
-post2 = Post.new(title: "Ovenly", kind: "text")
-post2.content = "Awesome bakery in Brooklyn. Find them here: http://oven.ly/"
-post2.save
-5.times { post2.hearts.create }
+# # Ovenly
+# post2 = Post.new(title: "Ovenly", kind: "text")
+# post2.content = "Awesome bakery in Brooklyn. Find them here: http://oven.ly/"
+# post2.save
+# 5.times { post2.hearts.create }
 
-# Chocolate Chip Goodness
-post3 = Post.create(
-	title: "Chocolate Chip Goodness",
-	kind: "image",
-	content: "http://farm4.static.flickr.com/3473/3304831464_6373d4df34.jpg"
-)
-8.times { post3.hearts.create }
+# # Chocolate Chip Goodness
+# post3 = Post.create(
+# 	title: "Chocolate Chip Goodness",
+# 	kind: "image",
+# 	content: "http://farm4.static.flickr.com/3473/3304831464_6373d4df34.jpg"
+# )
+# 8.times { post3.hearts.create }
 
-# Tiger pouncing
-post4 = Post.new( title: "Rawr", kind: "image")
-post4.content = "http://images.nationalgeographic.com/wpf/media-live/photos/000/036/cache/diving-tiger_3629_990x742.jpg"
+# # Tiger pouncing
+# post4 = Post.new( title: "Rawr", kind: "image")
+# post4.content = "http://images.nationalgeographic.com/wpf/media-live/photos/000/036/cache/diving-tiger_3629_990x742.jpg"
 
-post4.save
-10.times { post4.hearts.create }
+# post4.save
+# 10.times { post4.hearts.create }
