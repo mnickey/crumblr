@@ -9,7 +9,7 @@
 #Cheese Cake
 post1 = Post.new
 post1.title = "Epic Cheese Cake"
-post.kind = "image"
+post1.kind = "image"
 post1.content = "http://2.bp.blogspot.com/-deAWAjfeg00/TiXub_qWspI/AAAAAAAADNA/q-mZNHTZ9Zo/s1600/cheesecake5.jpg"
 post1.save
 # 2.times do
